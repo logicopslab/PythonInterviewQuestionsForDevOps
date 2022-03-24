@@ -1,5 +1,3 @@
-
-# print(len(my_string))
 def strLength(my_string):
     len_count = 0
     for i in my_string:
@@ -13,4 +11,3 @@ my_string = "Hey, there! Please subscribe LogicOps Lab!"
 str_len=strLength(my_string)
 
 print("The length of the given string is :",str_len)
-
