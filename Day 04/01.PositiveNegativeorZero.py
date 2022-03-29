@@ -1,3 +1,4 @@
+
 def positiveNegativeZero(param):
     if(param==0):
         print ("The number is either Zero or invalid")
@@ -8,4 +9,4 @@ def positiveNegativeZero(param):
 
 num=float(input("Please enter the number : "))
 
-positiveNegativeZero(num)    
+positiveNegativeZero(num) 
