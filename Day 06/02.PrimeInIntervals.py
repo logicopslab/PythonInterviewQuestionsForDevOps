@@ -1,14 +1,16 @@
 def primeOrNot(First, Second):
-    for i in range (First, Second):
-        if(First==0):
-            print ("The number is prime")
+    for i in range (First, Second+1):
+        for j in range(2, i):
+            if((i%j)==0):
+               # print (i, "is not a prime number")
+                break
         else:
-            print("The number is not prime")
+            print(i, "is a prime number")
 
-FirstInterval=float(input("Please enter the First interval : "))
-SecondInterval=float(input("Please enter the Second interval : "))
+FirstInterval=int(input("Please enter the First interval : "))
+SecondInterval=int(input("Please enter the Second interval : "))
 
-if ((FirstInterval > 0 and SecondInterval > 0) and FirstInterval < SecondInterval):
+if ((FirstInterval > 1 and SecondInterval > 2) and FirstInterval < SecondInterval):
     primeOrNot(FirstInterval, SecondInterval)
 else:
     print("Enter a valid range!")
