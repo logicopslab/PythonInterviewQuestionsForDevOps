@@ -1,4 +1,3 @@
-
 def strLength(my_string):
     reverseString = ""
     for i in my_string:
