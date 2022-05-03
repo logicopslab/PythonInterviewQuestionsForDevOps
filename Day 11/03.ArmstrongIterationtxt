@@ -1,0 +1,20 @@
+153
+
+Iteration 1
+
+lastDigit = 3
+sum = 0 + 3 x 3 x 3 = 27
+temp = 153 // 10 = 15
+
+Iteration 2
+
+lastDigit = 5
+sum = 27 + 5 x 5 x 5 => 27 + 125 => 152
+temp = 15 // 10 = 1
+
+Iteration 3
+
+lastDigit = 1
+sum = 152 + 1 x 1 x 1 => 153
+temp = 1 // 10 = 0
+
