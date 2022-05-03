@@ -16,7 +16,7 @@ print("Total number of digits in the number is :", finalCount)
 # 123 = 1234//10
 # count 1
 # Iteration 2
-# 12 = 12//10
+# 12 = 123//10
 # count = 2
 # Iteration 3
 # 1 = 12//10
