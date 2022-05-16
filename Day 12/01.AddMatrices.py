@@ -20,8 +20,8 @@ for i in range(len(M1)):
 	
 	for j in range(len(M2)):
 		M3[i][j] = M1[i][j] + M2[i][j]
-		print("i is", i, "j is", j)
-		print(M3)
+		# print("i is", i, "j is", j)
+		# print(M3)
 
 print("Final Matrix is :")
 for k in M3:
