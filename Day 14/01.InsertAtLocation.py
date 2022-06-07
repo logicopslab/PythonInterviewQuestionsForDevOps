@@ -8,7 +8,7 @@ index=int(input("Enter the index to insert that value : "))
 if index >= len(my_arr):
     print("Index out of bounds, no change in the array!",len(my_arr))
 else:
-    # insetring element ‘num’ at ‘index’ position
+    # inserting element ‘num’ at ‘index’ position
     my_arr.insert(index, num)  
 
 print("Array after inserting",num,"=",my_arr)
