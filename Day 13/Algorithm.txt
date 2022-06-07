@@ -1,0 +1,10 @@
+Steps :-
+
+#1: Declare & initialize the Array
+#2: Find the Length of the Array
+#3: Use 2 loops to find the duplicate elements. 
+    The outer loop will iterate through the array from 0 to its length.
+    The outer loop will select an element. 
+    The inner loop will be used to compare the selected element with all the remaining elements of the array.
+#4: If a match/duplicate element is found, display the element.
+    Repeat until all of the duplicate elements are found.
